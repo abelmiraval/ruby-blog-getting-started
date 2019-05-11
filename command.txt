@@ -1,0 +1,17 @@
+1. Starting up the Web Server
+   $ bin/rails server
+
+2. See routes
+   $ bin/rails routes
+
+3. Generate controller
+   $ bin/rails generate controller Articles
+
+4. Creating model
+   $ bin/rails generate model Article title:string text:text
+
+5. Generating a model with reference
+   $ bin/rails generate model Comment commenter:string body:text article:references
+
+6. Run the migration
+   $ bin/rails db:migrate
